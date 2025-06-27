@@ -27,6 +27,14 @@ Projects (h3 followed by an unordered list or table) <br/>
 
 # Phase 2
 
+For this phase you’ll be adding custom CSS in a <style> block in the header section of your index.html. For this phase you should concentrate on updating the layout of the page and should consider modifying the alignment, spacing (padding, margin, border), element sizes, fonts, etc. Don’t worry about additional design elements such as colors, you’ll update those in the next phase. You can bring your own personal style here to determine how you want to modify the layout, but must make changes to improve it. There is no specific layout that you need to adhere to, but should consider the following: <br/>
+
+Updating the alignment between your photo and text to reduce bulk unused whitespace <br>
+Update spacing around the page as well as between sections and elements so they are easier to make reading the page easier (recommended reading, importance of whitespace in design) <br/>
+Update the indentation for your lists and tables so they are distinguishable from the headers, likely through indentation (note that lists are already indented) <br/>
+Specify a set of fonts so your page looks more consistent across browsers (if you load a custom font, it will look the same on all browsers), consider using different fonts in different portions of the page to help break up the sections and improve readability <br/>
+
+
 # Phase 3
 
 # Phase 4
