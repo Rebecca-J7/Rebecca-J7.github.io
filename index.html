@@ -6,6 +6,83 @@
 <header id="title">
     <title> Rebecca's Portfolio </title>
     <meta charset="UTF-8">
+    <style>
+        #Name {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        #Subheading {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #Socials {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align:left;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 400px;
+            
+        }
+        #About {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align:center;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 750px;
+        }
+        #Education {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 800px;
+        }
+        #Coursework {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 400px;
+        }
+        #Skills{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #WorkExperience {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+            margin-top:20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 1150px;
+        }
+        #Projects {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </header>
 
 <body>
@@ -13,115 +90,129 @@
     <img src="/Photos/ProfessionalHeadshot.png" alt="Professional Headshot" width="200" height="200 shape="circle">
     
     <!--Name and Subheading-->
-    <h1> Rebecca Jennings </h1>
-    <h2> Hello, I'm Rebecca Jennings, an aspiring student! May this space be one of experience, growth, and reflection as I explore my passion through Computer Science. </h2>
+    <h1 id="Name"> Rebecca Jennings </h1>
+    <h2 id="Subheading"> Hello, I'm Rebecca Jennings, an aspiring student! May this space be one of experience, growth, and reflection as I explore my passion through Computer Science. </h2>
     
-    <!--Socials Section-->
-    <h2 id = "Socials"> Socials: </h2>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/rebecca-jennings-246a652a1/">LinkedIn: in/rebecca-jennings</a></li>
-        <li><a href="https://github.com/Rebecca-J7">GitHub: @Rebecca-J7</a></li>
-        <li><a href="mailto:rjennings0007">Email: rjennings0007@gmail.com</a></li>
-    </ul>
+    <div style="display: flex; flex-direction: row; gap:10rem;">
+        <!--Socials Section-->
+        <div id="Socials" style="display:flex; flex-direction: column;">
+        <h2> Socials </h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/rebecca-jennings-246a652a1/">LinkedIn: in/rebecca-jennings</a></li>
+            <li><a href="https://github.com/Rebecca-J7">GitHub: @Rebecca-J7</a></li>
+            <li><a href="mailto:rjennings0007">Email: rjennings0007@gmail.com</a></li>
+        </ul>
+        </div>
     
-    <!--About Section-->
-    <h3 id = "About Section" style = "color:black"> About Section</h3>
-    <p> My name is Rebecca Jennings, and I am currently a third-year student attending the University of California, Riverside, pursuing my bachelor's in Computer Science. I am passionate about pursuing a career in software development or cybersecurity, where my goal is to contribute to innovation while bridging the gaps between ethics and technology. I am an ambitious individual who employs adaptability, hard work, collaboration, leadership, and passion to learn through any given opportunity. I am continuing to broaden my skills in C++, UI/UX, Arduino/hardware, through multiple positions in engineering organizations, and participating in hackathons!</p>
-    
-    <!--Work Experience Section-->
-    <h3 id= "Work Experience"> Work Experience </h3>
-    <div style="display: flex; flex-direction: column;">
-        <div style="display: flex; flex-direction: row; gap: 3rem; flex-wrap: wrap; justify-content: space-between;">
-        <div style="flex: 1;">Operations - WINC, UCR</div>
-        <div style="flex: 1;">April 2025 - Present</div>
-        </div>
-        <ul>
-            <li> Create general meeting presentation slides and handle room reservations for WINC (e.g. special events, Rose Hack).</li>
-            <li> Manage and update WINC calendar, work closely with the Secretary for seamless communication. </li>
-            <li> Work on organizing outreach events and maintain collaboration with different orgs within and outside of BCOE through. </li>
-        </ul>
-    </div>
-    <div style="display: flex; flex-direction: column;">
-        <div style="display: flex; flex-direction: row; gap: 3rem; flex-wrap: wrap; justify-content: space-between;">
-        <div style="flex: 1;">Webmaster - SWE, UCR</div>
-        <div style="flex: 1;">April 2025 - Present</div>
-        </div>
-        <ul>
-            <li> Maintain and update TikTok and the website when needed: includes making changes such as updating pages with forms, events, newsletters and anything else that is required as well as ensuring that everything is running smoothly. </li>
-            <li> Work on the quarterly newsletter, take photos during the SWE events (GM, socials, etc.), and make HerStory IG reels/stories. </li>
-            <li> Assist marketing committee through marketing events on the website and attend regular meetings with other chairs/committees to stay engaged. </li>
-        </ul>
-    </div>
-    <div style="display: flex; flex-direction: column;">
-        <div style="display: flex; flex-direction: row; gap: 3rem; flex-wrap: wrap; justify-content: space-between;">
-        <div style="flex: 1;">Peer Academic Advisor - BCOE, UCR</div>
-        <div style="flex: 1;">January 2025 - Present</div>
-        </div>
-        <ul>
-            <li> Provide excellent customer service while acting as the first point of contact of BCOE Student Affairs for students, faculty, staff, and community members. </li>
-            <li> Serve as support to the BCOE Advising team during quarterly in-person drop-in hours, supporting students with the check-in process, greeting, assessing advising needs, answering questions, and routing to web resources. </li>
-            <li> Offer presentations on relevant topics to support the course registration process, student success, deeper student engagement and update upon online videos addressing common advising concerns. </li>
-        </ul>
-    </div>
-    <div style="display: flex; flex-direction: column;">
-        <div style="display: flex; flex-direction: row; gap: 3rem; flex-wrap: wrap; justify-content: space-between;">
-        <div style="flex: 1;">ACM Member/Intern/VP of Marketing – ACM@UCR</div>
-        <div style="flex: 1;">September 2024 - Present</div>
-        </div>
-        <ul>
-            <li> Work with other interns for ACM@UCR to plan and execute the CS Town Hall this year: reaching out to professors to have them participate, planning out the questions to ask, assigning tables to each intern/professor, executing the event, marketing the event, setting up/cleaning up, and delegating tasks amongst each intern. </li>
-            <li> Attend weekly meetings to assess the progression of planning a town hall and be responsible for delegating other tasks including tabling to promote ACM and assist leads in planning for Citrus Hack. </li>
-            <li> Design flyers and posts for all platforms (Discord, Instagram, LinkedIn, website, media calendar etc.), work alongside executive board members to create content to promote ACM events and initiatives. </li>
-        </ul>
+        <!--About Section-->
+        <div id="About" style="display:flex; flex-direction: column;">
+        <h3> About </h3>
+        <p> My name is Rebecca Jennings, and I am currently a third-year student attending the University of California, Riverside, pursuing my bachelor's in Computer Science. I am passionate about pursuing a career in software development or cybersecurity, where my goal is to contribute to innovation while bridging the gaps between ethics and technology. I am an ambitious individual who employs adaptability, hard work, collaboration, leadership, and passion to learn through any given opportunity. I am continuing to broaden my skills in C++, UI/UX, Arduino/hardware, through multiple positions in engineering organizations, and participating in hackathons!</p>
+        </div>    
     </div>
 
-    <!--Education Section-->
-    <h3 id= "Education"> Education </h3>
-    <div style="display: flex; flex-direction: column;">
-        <div style="display: flex; flex-direction: row; gap: 3rem; flex-wrap: wrap; justify-content: space-between;">
-        <div style="flex: 1;">B.S Computer Science - University of California-Riverside (UCR), GPA: 3.84</div>
-        <div style="flex: 1;">September 2023 - June 2027</div>
+    <div style="display: flex; flex-direction: row; gap: 5rem">
+        <!--Education Section-->
+        <div id= "Education" style="display: flex; flex-direction: column;">
+            <h3> Education </h3>
+            <div style="display: flex; flex-direction: row; gap: 3rem; flex-wrap: wrap;">
+                <p>B.S Computer Science - University of California-Riverside (UCR), GPA: 3.84</p>
+                <p>September 2023 - June 2027</p>
+            </div>
+            <ul>
+                <li> Extracurriculars: Alpha Phi Omega | ACM | SWE | WINC </li>
+                <li> Awards: DesignVerse Visionary Voyage Track | Citrus Hack Most Cinematic Track | Bear Hack 1st Place Overall | NSF S-STEM ScholarXL Award/Program | Rose Hack 1st Place Overall | Chancellor’s Honors List (2024) | Dean’s Honors List (2023, 2024) | AWT Scholarship | UCRAA First-Year Scholarship </li>
+            </ul>
         </div>
-        <ul>
-            <li> Awards: DesignVerse Visionary Voyage Track | Citrus Hack Most Cinematic Track | Bear Hack 1st Place Overall | NSF S-STEM ScholarXL Award/Program | Rose Hack 1st Place Overall | Chancellor’s Honors List (2024) | Dean’s Honors List (2023, 2024) | AWT Scholarship | UCRAA First-Year Scholarship </li>
-        </ul>
-    </div>
 
-    <!--Coursework Section-->
-    <h3 id= "Coursework"> Coursework </h3>
-    <ul>
-        <li> Professional Development & Mentoring </li>
-        <li> First-Year Calculus </li>
-        <li> C++ Programming 1 </li>
-        <li> Digital Transformation </li>
-        <li> C++ Programming 2 </li>
-        <li> Intro to Discrete Structures </li>
-        <li> Intro to Data Structures and Algorithms </li>
-        <li> Intro to Data Structures and Algorithms </li>
-        <li> Machine Organization & Assembly Language Program </li>
-        <li> Software Construction </li>
-        <li> Logic Design </li>
-        <li> Probability and Statistics for Engineering </li>
-    </ul>
+        <!--Coursework Section-->
+        <div id= "Coursework" style="display: flex; flex-direction: column;">
+            <h3> Coursework </h3>
+            <ul>
+                <li> Professional Development & Mentoring </li>
+                <li> C++ Programming 1 and 2 </li>
+                <li> Intro to Discrete Structures </li>
+                <li> Intro to Data Structures and Algorithms </li>
+                <li> Intro to Data Structures and Algorithms </li>
+                <li> Machine Organization & Assembly Language Program </li>
+                <li> Software Construction </li>
+                <li> Logic Design </li>
+                <li> Probability and Statistics for Engineering </li>
+            </ul>
+        </div>
+    </div>
 
     <!--Skills Section-->
-    <h3 id= "Skills"> Skills </h3>
-    <ul>
-        <li> Technical: C++, TypeScript, Assembly, CSS, JavaScript, Tailwind CSS, React.js, Next.js, Figma, GitHub, Arduino, Microsoft (Word, PowerPoint), Google (Docs, Slides, Drive) </li>
-        <li> Soft & Hard: Time Management, Adaptability, Communication, Customer Service, Teamwork, Leadership, Problem Solving, Collaboration </li>
-    </ul>
+    <div id="Skills">
+        <h3> Skills </h3>
+        <ul>
+            <li> Technical: C++, TypeScript, Assembly, CSS, JavaScript, Tailwind CSS, React.js, Next.js, Figma, GitHub, Arduino, Microsoft (Word, PowerPoint), Google (Docs, Slides, Drive) </li>
+            <li> Soft & Hard: Time Management, Adaptability, Communication, Customer Service, Teamwork, Leadership, Problem Solving, Collaboration </li>
+        </ul>
+    </div>
+
+    <!--Work Experience Section-->
+    <div id = "WorkExperience">
+        <h3> Work Experience </h3>
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; flex-direction: row; gap: 35rem; flex-wrap: wrap; justify-content: space-between;">
+                <div style="flex: 2;">Operations - WINC, UCR</div>
+                <div style="flex: 1;">April 2025 - Present</div>
+            </div>
+            <ul>
+                <li> Create general meeting presentation slides and handle room reservations for WINC (e.g. special events, Rose Hack).</li>
+                <li> Manage and update WINC calendar, work closely with the Secretary for seamless communication. </li>
+                <li> Work on organizing outreach events and maintain collaboration with different orgs within and outside of BCOE through. </li>
+            </ul>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; flex-direction: row; gap: 35rem; flex-wrap: wrap; justify-content: space-between;">
+                <div style="flex: 2;">Webmaster - SWE, UCR</div>
+                <div style="flex: 1;">April 2025 - Present</div>
+            </div>
+            <ul>
+                <li> Maintain and update TikTok and the website when needed: includes making changes such as updating pages with forms, events, newsletters and anything else that is required as well as ensuring that everything is running smoothly. </li>
+                <li> Work on the quarterly newsletter, take photos during the SWE events (GM, socials, etc.), and make HerStory IG reels/stories. </li>
+                <li> Assist marketing committee through marketing events on the website and attend regular meetings with other chairs/committees to stay engaged. </li>
+            </ul>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; flex-direction: row; gap: 35rem; flex-wrap: wrap; justify-content: space-between;">
+                <div style="flex: 2;">Peer Academic Advisor - BCOE, UCR</div>
+                <div style="flex: 1;">January 2025 - Present</div>
+            </div>
+            <ul>
+                <li> Provide excellent customer service while acting as the first point of contact of BCOE Student Affairs for students, faculty, staff, and community members. </li>
+                <li> Serve as support to the BCOE Advising team during quarterly in-person drop-in hours, supporting students with the check-in process, greeting, assessing advising needs, answering questions, and routing to web resources. </li>
+                <li> Offer presentations on relevant topics to support the course registration process, student success, deeper student engagement and update upon online videos addressing common advising concerns. </li>
+            </ul>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; flex-direction: row; gap: 35rem; flex-wrap: wrap; justify-content: space-between;">
+                <div style="flex: 2;">Member/Intern/VP of Marketing - ACM@UCR</div>
+                <div style="flex: 1;">September 2024 - Present</div>
+            </div>
+            <ul>
+                <li> Work with other interns for ACM@UCR to plan and execute the CS Town Hall this year: reaching out to professors to have them participate, planning out the questions to ask, assigning tables to each intern/professor, executing the event, marketing the event, setting up/cleaning up, and delegating tasks amongst each intern. </li>
+                <li> Attend weekly meetings to assess the progression of planning a town hall and be responsible for delegating other tasks including tabling to promote ACM and assist leads in planning for Citrus Hack. </li>
+                <li> Design flyers and posts for all platforms (Discord, Instagram, LinkedIn, website, media calendar etc.), work alongside executive board members to create content to promote ACM events and initiatives. </li>
+            </ul>
+        </div>
+    </div>
 
     <!--Projects Section-->
-    <h3 id= "Projects"> Projects </h3>
-    <ul>
-        <li> DesignVerse2025 - kwhatt.: Prototype of a home management app that oversees energy usage through integration to smart home & regular devices. (<a href = "https://devpost.com/software/wattwise-name-tbd">Devpost</a>, <a href = "https://www.figma.com/design/GpOVNy7iu4H0IdcRHeB94d/kwhatt.---Team-Whale--Actually?node-id=2-4&t=8EwyfRnxBJma085D-1">Figma</a>)</li>
-        <li> Citrus Hack2025 - SmoothShot: A camera rig offering a compact, low-cost alternative that automates camera movements like pans, rotations, and tracking shots with precision. (<a href = "https://devpost.com/software/smoothshot">Devpost</a>)</li>
-        <li> BearHack2025 - Vitamin D-ficiency Kit: Kit made up of a pill dispenser, suntime tracker, and an informative website, aimed to help patients learn about the importance of vitamin D. (<a href = "https://devpost.com/software/vitamin-d-ficiency">Devpost</a>)</li>
-        <li> BCOE - Academic Resilience & Registration Videos: Assigned to create updated videos that help students navigate resources on campus.</li>
-        <li> RoseHack2025 - Plant Bodyguard: A device designed to hold a plant and monitor the critical conditions, ensuring it is kept in optimal environments for growth by providing users with real-time feedback on environmental conditions: light, temperature, and object detection.(<a href = "https://devpost.com/software/rosehack-2025">Devpost</a>)</li>
-        <li> ACM - UCR TKD Website: Worked on page sections, animations, embedding links, formatting, fixing redudancy, and responsiveness. (<a href = "https://github.com/acm-ucr/tkd-website">GitHub</a>)</li>
-        <li> ACM - UCR 3D Club Website Design: Worked with Figma to create page layouts, desktop and mobile pages, and learned to navigate UI/UX principles. (<a href = "https://www.figma.com/design/M5lBBZmtmt9YTyDL8j5lZk/3D-Club-Website?node-id=0-1&t=d8C6MRLIKjLUQzsh-1">Figma</a>)</li>
-        <li> ACM - UCR BAP Website: Worked on button components, page sections, embedding links, and user state. (<a href = "https://github.com/acm-ucr/bap-website">GitHub</a>)</li>
-    </ul>
+    <div id="Projects">
+        <h3> Projects </h3>
+        <ul>
+            <li> DesignVerse2025 - kwhatt.: Prototype of a home management app that oversees energy usage through integration to smart home & regular devices. (<a href = "https://devpost.com/software/wattwise-name-tbd">Devpost</a>, <a href = "https://www.figma.com/design/GpOVNy7iu4H0IdcRHeB94d/kwhatt.---Team-Whale--Actually?node-id=2-4&t=8EwyfRnxBJma085D-1">Figma</a>)</li>
+            <li> Citrus Hack2025 - SmoothShot: A camera rig offering a compact, low-cost alternative that automates camera movements like pans, rotations, and tracking shots with precision. (<a href = "https://devpost.com/software/smoothshot">Devpost</a>)</li>
+            <li> BearHack2025 - Vitamin D-ficiency Kit: Kit made up of a pill dispenser, suntime tracker, and an informative website, aimed to help patients learn about the importance of vitamin D. (<a href = "https://devpost.com/software/vitamin-d-ficiency">Devpost</a>)</li>
+            <li> BCOE - Academic Resilience & Registration Videos: Assigned to create updated videos that help students navigate resources on campus.</li>
+            <li> RoseHack2025 - Plant Bodyguard: A device designed to hold a plant and monitor the critical conditions, ensuring it is kept in optimal environments for growth by providing users with real-time feedback on environmental conditions: light, temperature, and object detection.(<a href = "https://devpost.com/software/rosehack-2025">Devpost</a>)</li>
+            <li> ACM - UCR TKD Website: Worked on page sections, animations, embedding links, formatting, fixing redudancy, and responsiveness. (<a href = "https://github.com/acm-ucr/tkd-website">GitHub</a>)</li>
+            <li> ACM - UCR 3D Club Website Design: Worked with Figma to create page layouts, desktop and mobile pages, and learned to navigate UI/UX principles. (<a href = "https://www.figma.com/design/M5lBBZmtmt9YTyDL8j5lZk/3D-Club-Website?node-id=0-1&t=d8C6MRLIKjLUQzsh-1">Figma</a>)</li>
+            <li> ACM - UCR BAP Website: Worked on button components, page sections, embedding links, and user state. (<a href = "https://github.com/acm-ucr/bap-website">GitHub</a>)</li>
+        </ul>
+    </div>
 </body>
 </html>
