@@ -1,75 +1,100 @@
+body {
+    background-color:rgb(162, 142, 204); /* Deep purple */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 2rem;
+}
+
+/* Headings */
 #Name {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: center;
-        }
-        #Subheading {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: center;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        #Socials {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align:left;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            width: 400px;
-            
-        }
-        #About {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align:center;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            width: 750px;
-        }
-        #Education {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: left;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            width: 800px;
-        }
-        #Coursework {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: left;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            width: 400px;
-        }
-        #Skills{
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: left;
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-        #WorkExperience {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: left;
-            margin-top:20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            width: 1150px;
-        }
-        #Projects {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: left;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-        img {
-            border-radius: 50%;
-            display: block;
-            margin: 0 auto 20px auto;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#Subheading {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+#icon-nav img.nav-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+}
+
+#icon-nav img.nav-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+/* Headshot */
+img {
+    border-radius: 50%;
+    border: 4px solid white;
+    display: block;
+    margin: 0 auto 2rem auto;
+    width: 200px;
+    height: 200px;
+}
+
+/* Card-like Containers */
+#Socials, #About, #Education, #Coursework, #Skills, #WorkExperience, #Projects {
+    background-color: white;
+    color: black;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive Widths (optional override) */
+#Socials {
+    max-width: 400px;
+}
+#About {
+    max-width: 750px;
+}
+#Education {
+    max-width: 800px;
+}
+#Coursework {
+    max-width: 1000px;
+}
+#Skills {
+    max-width: 1300px;
+}
+#WorkExperience {
+    max-width: 1100px;
+}
+#Projects {
+    max-width: 1100px;
+}
+
+/* Headings Inside Cards */
+h2, h3 {
+    border-bottom: 3px solid #FFFFFF;
+    padding-bottom: 0.2rem;
+}
+
+/* Lists */
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #6A0DAD;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
