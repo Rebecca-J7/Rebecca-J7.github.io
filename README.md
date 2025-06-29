@@ -37,4 +37,17 @@ Specify a set of fonts so your page looks more consistent across browsers (if yo
 
 # Phase 3
 
+For this phase you'll restructure your project to separate your HTML and CSS into separate files. Create one directory images/ for your profile photo and any other images you include. Create a secondary directory styles/, and migrate your CSS file(s) to that directory. Update your index.html document to update the references to your image elements and link to your now separated stylesheet(s). Don’t forget to remove the <style> section from the previous phase.  <br/>
+
+Now that you have separate stylesheets, spend some time updating your page design with custom colors and/or images and fine tuning your layout. Your profile page should be a reflection of both your skills and your design taste, so spend some time on the details. The instructor's example should be considered the minimum design not the ideal. <br/>
+
+Use icons or images as additional design elements for things like social links, section headers, list icons, etc. There are lots of place to find free icons online  <br/>
+A vertical or horizontal line elements in addition to whitespace to break up sections and make the page more readable  <br/>
+Style your links (including after they are clicked) to match you general page style, and set a target so it opens links in a new page  <br/>
+Expand your custom CSS classes to use different styles in different sections of your page  <br/>
+
 # Phase 4
+
+For this last phase you’ll be updating the way your site is read and interpreted by other sites. Sites need to be performant and accessible so users want to use them, they need to be well formatted for consumption by bots so they can be indexed by search engines, and they may need additional meta information to support specific use cases like well formatted sharing on social media. In this phase you’ll make some basic updates to support these cases, and we’ll dig more into these topics during the course. <br/>
+
+Start by updating your page with additional header information to support share cards in Facebook, Twitter, and LinkedIn and on the Fediverse. Each one requires a slightly different (and sometimes slightly overlapping) set of additional fields to be added to your site's header.
