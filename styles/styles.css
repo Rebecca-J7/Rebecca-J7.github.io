@@ -2,8 +2,10 @@ body {
     background-color:rgb(162, 142, 204); /* Deep purple */
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
     padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 auto 2rem auto;
 }
 
 /* Headings */
@@ -19,16 +21,34 @@ body {
     font-size: 1.5rem;
 }
 
-#icon-nav img.nav-icon {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    cursor: pointer;
+#top-nav {
+        display: flex;
+        justify-content: center;       /* center the links */
+        gap: 2rem;
+        width: 100%;
+        background-color: white;
+        opacity: 80%;
+        padding: 0.5rem;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-sizing: border-box;
+    }
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 9px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-#icon-nav img.nav-icon:hover {
-    transform: scale(1.2);
-    opacity: 0.8;
+.nav-link:hover {
+    background-color:rgb(162, 142, 204); /* Dark Purple */
+    color: white;
 }
 
 /* Headshot */
@@ -51,12 +71,18 @@ img {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
-/* Responsive Widths (optional override) */
-#Socials {
-    max-width: 400px;
+.social-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
 }
+
+#Socials {
+    max-width: 1000px;
+}
+
 #About {
-    max-width: 750px;
+    max-width: 800px;
 }
 #Education {
     max-width: 800px;
